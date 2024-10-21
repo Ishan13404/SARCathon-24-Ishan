@@ -14,8 +14,8 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Ishan13404/SARCathon-24-Ishan.git
+   cd saras-ai-smart-faq
    ```
 
 2. **Install dependencies**:
