@@ -1,70 +1,60 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SARAS AI Institute FAQ
 
-## Available Scripts
+This project, **SARAS AI Institute FAQ**, was developed as part of **SARCathon**, conducted by the **Student Alumni Relations Cell (SARC), IIT Bombay**. The aim of the project is to create a smart FAQ module that intelligently returns relevant FAQ entries based on user queries, providing a seamless and efficient user experience.
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+The project is built entirely on a **React frontend** with no backend. The FAQ data is stored directly in a JavaScript file (`faqs.js`), where the original `faqs.json` file was converted into a JavaScript object containing the questionnaire. This structure enables fast and efficient search functionality within the frontend itself.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this project locally, follow these steps:
 
-### `npm test`
+1. **Clone the repository**:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-### `npm run build`
+2. **Install dependencies**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   Ensure you have Node.js installed. Then run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Run the application**:
 
-### `npm run eject`
+   After the dependencies are installed, you can start the React app using:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   The application will run on `http://localhost:3000` by default.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Search Functionality**: Users can input their queries, and the module will return the most relevant FAQ entries based on their input.
+- **Efficient Frontend**: Since there is no backend, the entire search process happens client-side, ensuring quick response times.
+- **Scalability**: The project is designed to handle a large number of FAQs, with the ability to quickly match user queries to relevant questions.
 
-## Learn More
+## Key Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React.js**: For building the interactive user interface.
+- **JavaScript**: For handling FAQ data and logic directly within the frontend.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Conclusion
 
-### Code Splitting
+This FAQ module was developed with a focus on user experience, performance, and seamless integration. It provides quick, relevant responses to user queries and is designed to scale efficiently.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed by:  
+**Ishan Grover**  
+Roll No.: 22B1528  
+Indian Institute of Technology Bombay  
+Email: 22b1528@iitb.ac.in
